@@ -7,18 +7,36 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainPage.h"
+#import "NLViewController.h"
+#import "UMSocialQQHandler.h"
+#import "UMSocialSinaHandler.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    [UMSocialData setAppKey:@"540011d1fd98c57db4014e79"];
+    [UMSocialQQHandler setQQWithAppId:@"1102303219" appKey:@"qZv9QnJfcXD9pNLX" url:@"http://www.umeng.com/social"];
+    MainPage * main=[[MainPage alloc]init];
+  //  NLViewController * main=[[NLViewController alloc]init];
+    self.window.rootViewController=main;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
 
+    return [UMSocialSnsService handleOpenURL:url];
+
+}
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+
+    return [UMSocialSnsService handleOpenURL:url];
+
+}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

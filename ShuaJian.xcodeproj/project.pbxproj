@@ -14,11 +14,126 @@
 		1D06244419B56C5D0015411C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D06244319B56C5D0015411C /* main.m */; };
 		1D06244819B56C5D0015411C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D06244719B56C5D0015411C /* AppDelegate.m */; };
 		1D06244A19B56C5D0015411C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D06244919B56C5D0015411C /* Images.xcassets */; };
-		1D06245119B56C5D0015411C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D06245019B56C5D0015411C /* XCTest.framework */; };
+		1D06245119B56C5D0015411C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D06245019B56C5D0015411C /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1D06245219B56C5D0015411C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D06243719B56C5D0015411C /* Foundation.framework */; };
 		1D06245319B56C5D0015411C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D06243B19B56C5D0015411C /* UIKit.framework */; };
 		1D06245B19B56C5D0015411C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D06245919B56C5D0015411C /* InfoPlist.strings */; };
 		1D06245D19B56C5D0015411C /* ShuaJianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D06245C19B56C5D0015411C /* ShuaJianTests.m */; };
+		1D06246919B56EB00015411C /* Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D06246819B56EB00015411C /* Setup.m */; };
+		1D06246C19B56F270015411C /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D06246B19B56F270015411C /* MainPage.m */; };
+		1D06247719B57D500015411C /* 耍贱头像_保存头像按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06246E19B57D500015411C /* 耍贱头像_保存头像按钮.png */; };
+		1D06247819B57D500015411C /* 耍贱头像_符号1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06246F19B57D500015411C /* 耍贱头像_符号1.png */; };
+		1D06247919B57D500015411C /* 耍贱头像_符号2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06247019B57D500015411C /* 耍贱头像_符号2.png */; };
+		1D06247A19B57D500015411C /* 耍贱头像_符号3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06247119B57D500015411C /* 耍贱头像_符号3.png */; };
+		1D06247B19B57D500015411C /* 耍贱头像_符号4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06247219B57D500015411C /* 耍贱头像_符号4.png */; };
+		1D06247C19B57D500015411C /* 耍贱头像_符号5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06247319B57D500015411C /* 耍贱头像_符号5.png */; };
+		1D06247D19B57D500015411C /* 耍贱头像_设置按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06247419B57D500015411C /* 耍贱头像_设置按钮.png */; };
+		1D06247E19B57D500015411C /* 耍贱头像_选择头像按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06247519B57D500015411C /* 耍贱头像_选择头像按钮.png */; };
+		1D06247F19B57D500015411C /* 耍贱头像图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06247619B57D500015411C /* 耍贱头像图标.png */; };
+		1D06248819B590970015411C /* 符号1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06248019B590970015411C /* 符号1.png */; };
+		1D06248919B590970015411C /* 符号2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06248119B590970015411C /* 符号2.png */; };
+		1D06248A19B590970015411C /* 符号3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06248219B590970015411C /* 符号3.png */; };
+		1D06248B19B590970015411C /* 符号4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06248319B590970015411C /* 符号4.png */; };
+		1D06248C19B590970015411C /* 符号5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06248419B590970015411C /* 符号5.png */; };
+		1D06248D19B590970015411C /* 耍贱头像_底板.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06248519B590970015411C /* 耍贱头像_底板.png */; };
+		1D06248E19B590970015411C /* 耍贱头像_输入框.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06248619B590970015411C /* 耍贱头像_输入框.png */; };
+		1D06248F19B590970015411C /* 耍贱头像_头像背景框.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D06248719B590970015411C /* 耍贱头像_头像背景框.png */; };
+		1D094F8519C1772900A7CCFA /* 耍贱头像首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F7E19C1772900A7CCFA /* 耍贱头像首页.png */; };
+		1D094F8619C1772900A7CCFA /* 耍贱头像设置-新浪_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F7F19C1772900A7CCFA /* 耍贱头像设置-新浪_12.png */; };
+		1D094F8719C1772900A7CCFA /* 耍贱头像设置栏-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F8019C1772900A7CCFA /* 耍贱头像设置栏-1.png */; };
+		1D094F8819C1772900A7CCFA /* 耍贱头像设置标题栏_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F8119C1772900A7CCFA /* 耍贱头像设置标题栏_03.png */; };
+		1D094F8919C1772900A7CCFA /* 耍贱头像设置按钮_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F8219C1772900A7CCFA /* 耍贱头像设置按钮_03.png */; };
+		1D094F8A19C1772900A7CCFA /* 耍贱头像设置-qq_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F8319C1772900A7CCFA /* 耍贱头像设置-qq_06.png */; };
+		1D094F8B19C1772900A7CCFA /* 耍贱头像设置栏-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F8419C1772900A7CCFA /* 耍贱头像设置栏-2.png */; };
+		1D094F8D19C180FE00A7CCFA /* 耍贱头像_99.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F8C19C180FE00A7CCFA /* 耍贱头像_99.png */; };
+		1D094FB719C1974600A7CCFA /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F8F19C1974600A7CCFA /* 1.jpg */; };
+		1D094FB819C1974600A7CCFA /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9019C1974600A7CCFA /* 2.jpg */; };
+		1D094FB919C1974600A7CCFA /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9119C1974600A7CCFA /* 3.jpg */; };
+		1D094FBA19C1974600A7CCFA /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9219C1974600A7CCFA /* 4.jpg */; };
+		1D094FBB19C1974600A7CCFA /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9319C1974600A7CCFA /* 5.jpg */; };
+		1D094FBC19C1974600A7CCFA /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9419C1974600A7CCFA /* 6.jpg */; };
+		1D094FBD19C1974600A7CCFA /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9519C1974600A7CCFA /* 7.jpg */; };
+		1D094FBE19C1974600A7CCFA /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9619C1974600A7CCFA /* 8.jpg */; };
+		1D094FBF19C1974600A7CCFA /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9719C1974600A7CCFA /* 9.jpg */; };
+		1D094FC019C1974600A7CCFA /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9819C1974600A7CCFA /* 10.jpg */; };
+		1D094FC119C1974600A7CCFA /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9919C1974600A7CCFA /* 11.jpg */; };
+		1D094FC219C1974600A7CCFA /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9A19C1974600A7CCFA /* 12.jpg */; };
+		1D094FC319C1974600A7CCFA /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9B19C1974600A7CCFA /* 13.jpg */; };
+		1D094FC419C1974600A7CCFA /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9C19C1974600A7CCFA /* 14.jpg */; };
+		1D094FC519C1974600A7CCFA /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9D19C1974600A7CCFA /* 15.jpg */; };
+		1D094FC619C1974600A7CCFA /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9E19C1974600A7CCFA /* 16.jpg */; };
+		1D094FC719C1974600A7CCFA /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094F9F19C1974600A7CCFA /* 17.jpg */; };
+		1D094FC819C1974600A7CCFA /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FA019C1974600A7CCFA /* 18.jpg */; };
+		1D094FC919C1974600A7CCFA /* 19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FA119C1974600A7CCFA /* 19.jpg */; };
+		1D094FCA19C1974600A7CCFA /* 20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FA219C1974600A7CCFA /* 20.jpg */; };
+		1D094FCB19C1974600A7CCFA /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FA319C1974600A7CCFA /* 21.jpg */; };
+		1D094FCC19C1974600A7CCFA /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FA419C1974600A7CCFA /* 22.jpg */; };
+		1D094FCD19C1974600A7CCFA /* 23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FA519C1974600A7CCFA /* 23.jpg */; };
+		1D094FCE19C1974600A7CCFA /* 24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FA619C1974600A7CCFA /* 24.jpg */; };
+		1D094FCF19C1974600A7CCFA /* 25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FA719C1974600A7CCFA /* 25.jpg */; };
+		1D094FD019C1974600A7CCFA /* 26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FA819C1974600A7CCFA /* 26.jpg */; };
+		1D094FD119C1974600A7CCFA /* 27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FA919C1974600A7CCFA /* 27.jpg */; };
+		1D094FD219C1974600A7CCFA /* 28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FAA19C1974600A7CCFA /* 28.jpg */; };
+		1D094FD319C1974600A7CCFA /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FAB19C1974600A7CCFA /* 29.jpg */; };
+		1D094FD419C1974600A7CCFA /* 30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FAC19C1974600A7CCFA /* 30.jpg */; };
+		1D094FD519C1974600A7CCFA /* 31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FAD19C1974600A7CCFA /* 31.jpg */; };
+		1D094FD619C1974600A7CCFA /* 32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FAE19C1974600A7CCFA /* 32.jpg */; };
+		1D094FD719C1974600A7CCFA /* 33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FAF19C1974600A7CCFA /* 33.jpg */; };
+		1D094FD819C1974600A7CCFA /* 34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FB019C1974600A7CCFA /* 34.jpg */; };
+		1D094FD919C1974600A7CCFA /* 35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FB119C1974600A7CCFA /* 35.jpg */; };
+		1D094FDA19C1974600A7CCFA /* 36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FB219C1974600A7CCFA /* 36.jpg */; };
+		1D094FDB19C1974600A7CCFA /* 37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FB319C1974600A7CCFA /* 37.jpg */; };
+		1D094FDC19C1974600A7CCFA /* 38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FB419C1974600A7CCFA /* 38.jpg */; };
+		1D094FDD19C1974600A7CCFA /* 39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FB519C1974600A7CCFA /* 39.jpg */; };
+		1D094FDE19C1974600A7CCFA /* 40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D094FB619C1974600A7CCFA /* 40.jpg */; };
+		1D094FE119C19FB100A7CCFA /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D094FE019C19FB100A7CCFA /* Picture.m */; };
+		1D094FE419C1A07700A7CCFA /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D094FE319C1A07700A7CCFA /* PhotoCell.m */; };
+		1D2C8FAF19BE9CE600C19399 /* NLImageCropperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C8FAC19BE9CE600C19399 /* NLImageCropperView.m */; };
+		1D2C8FB019BE9CE600C19399 /* NLCropViewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C8FAE19BE9CE600C19399 /* NLCropViewLayer.m */; };
+		1DAC6EC819BFF1CD00758D20 /* NLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC6EC719BFF1CD00758D20 /* NLViewController.m */; };
+		1DAC6ECA19C0057F00758D20 /* corner.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6EC919C0057F00758D20 /* corner.png */; };
+		1DAC6ECC19C0065D00758D20 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6ECB19C0065D00758D20 /* QuartzCore.framework */; };
+		1DAC6ED019C0107000758D20 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6ECD19C0107000758D20 /* Default.png */; };
+		1DAC6ED119C0107000758D20 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6ECE19C0107000758D20 /* Default@2x.png */; };
+		1DAC6ED219C0107000758D20 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6ECF19C0107000758D20 /* Default-568h@2x.png */; };
+		1DAC6ED719C02A5600758D20 /* PhotoBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC6ED619C02A5600758D20 /* PhotoBtn.m */; };
+		1DAC6EDA19C034BA00758D20 /* SetUppage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC6ED919C034BA00758D20 /* SetUppage.m */; };
+		1DAC6EDC19C034CE00758D20 /* 耍贱头像_设置.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6EDB19C034CE00758D20 /* 耍贱头像_设置.jpg */; };
+		1DAC6F0419C03F3F00758D20 /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6EDE19C03F3F00758D20 /* UMSocialLocalizable.strings */; };
+		1DAC6F0519C03F3F00758D20 /* libUMSocial_Sdk_4.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6EEC19C03F3F00758D20 /* libUMSocial_Sdk_4.1.a */; };
+		1DAC6F0619C03F3F00758D20 /* libUMSocial_Sdk_Comment_4.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6EED19C03F3F00758D20 /* libUMSocial_Sdk_Comment_4.1.a */; };
+		1DAC6F0719C03F3F00758D20 /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6EEF19C03F3F00758D20 /* UMSCommentDetailController.xib */; };
+		1DAC6F0819C03F3F00758D20 /* UMSCommentInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6EF019C03F3F00758D20 /* UMSCommentInputController.xib */; };
+		1DAC6F0919C03F3F00758D20 /* UMSCommentInputControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6EF119C03F3F00758D20 /* UMSCommentInputControlleriPad.xib */; };
+		1DAC6F0A19C03F3F00758D20 /* UMShareEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6EF219C03F3F00758D20 /* UMShareEditViewController.xib */; };
+		1DAC6F0B19C03F3F00758D20 /* UMShareEditViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6EF319C03F3F00758D20 /* UMShareEditViewControlleriPad.xib */; };
+		1DAC6F0C19C03F3F00758D20 /* UMSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6EF419C03F3F00758D20 /* UMSLoginViewController.xib */; };
+		1DAC6F0D19C03F3F00758D20 /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6EF519C03F3F00758D20 /* UMSnsAccountViewController.xib */; };
+		1DAC6F0E19C03F3F00758D20 /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6EF619C03F3F00758D20 /* UMSShareListController.xib */; };
+		1DAC6F0F19C03F3F00758D20 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6EF819C03F3F00758D20 /* libSocialQQ.a */; };
+		1DAC6F1019C03F3F00758D20 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6EF919C03F3F00758D20 /* TencentOpenAPI.framework */; };
+		1DAC6F1119C03F3F00758D20 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6EFA19C03F3F00758D20 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		1DAC6F1219C03F3F00758D20 /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC6EFC19C03F3F00758D20 /* UMSocialSDKResourcesNew.bundle */; };
+		1DAC6F1319C03F3F00758D20 /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6EFE19C03F3F00758D20 /* libSocialWechat.a */; };
+		1DAC6F1419C03F3F00758D20 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6EFF19C03F3F00758D20 /* libWeChatSDK.a */; };
+		1DAC6F1619C03F8100758D20 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F1519C03F8100758D20 /* AddressBook.framework */; };
+		1DAC6F1819C03F8A00758D20 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F1719C03F8A00758D20 /* CoreMotion.framework */; };
+		1DAC6F1A19C03F9600758D20 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F1919C03F9600758D20 /* CoreLocation.framework */; };
+		1DAC6F1C19C03FA300758D20 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F1B19C03FA300758D20 /* MediaPlayer.framework */; };
+		1DAC6F1E19C03FAD00758D20 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F1D19C03FAD00758D20 /* CoreText.framework */; };
+		1DAC6F2019C03FB900758D20 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F1F19C03FB900758D20 /* AssetsLibrary.framework */; };
+		1DAC6F2219C03FC600758D20 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F2119C03FC600758D20 /* MessageUI.framework */; };
+		1DAC6F2419C03FD000758D20 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F2319C03FD000758D20 /* libsqlite3.dylib */; };
+		1DAC6F2619C03FEF00758D20 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F2519C03FEF00758D20 /* libstdc++.dylib */; };
+		1DAC6F2819C03FFC00758D20 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F2719C03FFC00758D20 /* Security.framework */; };
+		1DAC6F2A19C0400700758D20 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F2919C0400700758D20 /* libz.1.2.5.dylib */; };
+		1DAC6F2C19C0401000758D20 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F2B19C0401000758D20 /* libicucore.dylib */; };
+		1DAC6F2E19C0401E00758D20 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F2D19C0401E00758D20 /* CoreTelephony.framework */; };
+		1DAC6F3019C0402900758D20 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC6F2F19C0402900758D20 /* SystemConfiguration.framework */; };
+		1DACB63A19B9A5C000A86D0F /* Photos.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DACB63919B9A5C000A86D0F /* Photos.m */; };
+		1DADEB1E19C20FD10063C62E /* libSocialSina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DADEB1C19C20FD10063C62E /* libSocialSina.a */; };
+		1DB185E919B75DB500347F3D /* Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB185E819B75DB500347F3D /* Draw.m */; };
+		1DBEFEE519C6C22000D3B14C /* 耍贱头像_小丸子.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBEFEE419C6C22000D3B14C /* 耍贱头像_小丸子.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +163,150 @@
 		1D06245819B56C5D0015411C /* ShuaJianTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShuaJianTests-Info.plist"; sourceTree = "<group>"; };
 		1D06245A19B56C5D0015411C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D06245C19B56C5D0015411C /* ShuaJianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuaJianTests.m; sourceTree = "<group>"; };
+		1D06246619B56D090015411C /* TypeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeClass.h; sourceTree = "<group>"; };
+		1D06246719B56EB00015411C /* Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setup.h; sourceTree = "<group>"; };
+		1D06246819B56EB00015411C /* Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setup.m; sourceTree = "<group>"; };
+		1D06246A19B56F270015411C /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPage.h; sourceTree = "<group>"; };
+		1D06246B19B56F270015411C /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPage.m; sourceTree = "<group>"; };
+		1D06246E19B57D500015411C /* 耍贱头像_保存头像按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像_保存头像按钮.png"; sourceTree = "<group>"; };
+		1D06246F19B57D500015411C /* 耍贱头像_符号1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像_符号1.png"; sourceTree = "<group>"; };
+		1D06247019B57D500015411C /* 耍贱头像_符号2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像_符号2.png"; sourceTree = "<group>"; };
+		1D06247119B57D500015411C /* 耍贱头像_符号3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像_符号3.png"; sourceTree = "<group>"; };
+		1D06247219B57D500015411C /* 耍贱头像_符号4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像_符号4.png"; sourceTree = "<group>"; };
+		1D06247319B57D500015411C /* 耍贱头像_符号5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像_符号5.png"; sourceTree = "<group>"; };
+		1D06247419B57D500015411C /* 耍贱头像_设置按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像_设置按钮.png"; sourceTree = "<group>"; };
+		1D06247519B57D500015411C /* 耍贱头像_选择头像按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像_选择头像按钮.png"; sourceTree = "<group>"; };
+		1D06247619B57D500015411C /* 耍贱头像图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像图标.png"; sourceTree = "<group>"; };
+		1D06248019B590970015411C /* 符号1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "符号1.png"; sourceTree = "<group>"; };
+		1D06248119B590970015411C /* 符号2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "符号2.png"; sourceTree = "<group>"; };
+		1D06248219B590970015411C /* 符号3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "符号3.png"; sourceTree = "<group>"; };
+		1D06248319B590970015411C /* 符号4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "符号4.png"; sourceTree = "<group>"; };
+		1D06248419B590970015411C /* 符号5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "符号5.png"; sourceTree = "<group>"; };
+		1D06248519B590970015411C /* 耍贱头像_底板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像_底板.png"; sourceTree = "<group>"; };
+		1D06248619B590970015411C /* 耍贱头像_输入框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像_输入框.png"; sourceTree = "<group>"; };
+		1D06248719B590970015411C /* 耍贱头像_头像背景框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像_头像背景框.png"; sourceTree = "<group>"; };
+		1D094F7E19C1772900A7CCFA /* 耍贱头像首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像首页.png"; sourceTree = "<group>"; };
+		1D094F7F19C1772900A7CCFA /* 耍贱头像设置-新浪_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像设置-新浪_12.png"; sourceTree = "<group>"; };
+		1D094F8019C1772900A7CCFA /* 耍贱头像设置栏-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像设置栏-1.png"; sourceTree = "<group>"; };
+		1D094F8119C1772900A7CCFA /* 耍贱头像设置标题栏_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像设置标题栏_03.png"; sourceTree = "<group>"; };
+		1D094F8219C1772900A7CCFA /* 耍贱头像设置按钮_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像设置按钮_03.png"; sourceTree = "<group>"; };
+		1D094F8319C1772900A7CCFA /* 耍贱头像设置-qq_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像设置-qq_06.png"; sourceTree = "<group>"; };
+		1D094F8419C1772900A7CCFA /* 耍贱头像设置栏-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像设置栏-2.png"; sourceTree = "<group>"; };
+		1D094F8C19C180FE00A7CCFA /* 耍贱头像_99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像_99.png"; sourceTree = "<group>"; };
+		1D094F8F19C1974600A7CCFA /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		1D094F9019C1974600A7CCFA /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		1D094F9119C1974600A7CCFA /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		1D094F9219C1974600A7CCFA /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		1D094F9319C1974600A7CCFA /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		1D094F9419C1974600A7CCFA /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		1D094F9519C1974600A7CCFA /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		1D094F9619C1974600A7CCFA /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		1D094F9719C1974600A7CCFA /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		1D094F9819C1974600A7CCFA /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		1D094F9919C1974600A7CCFA /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		1D094F9A19C1974600A7CCFA /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		1D094F9B19C1974600A7CCFA /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		1D094F9C19C1974600A7CCFA /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		1D094F9D19C1974600A7CCFA /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		1D094F9E19C1974600A7CCFA /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
+		1D094F9F19C1974600A7CCFA /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
+		1D094FA019C1974600A7CCFA /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
+		1D094FA119C1974600A7CCFA /* 19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpg; sourceTree = "<group>"; };
+		1D094FA219C1974600A7CCFA /* 20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.jpg; sourceTree = "<group>"; };
+		1D094FA319C1974600A7CCFA /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
+		1D094FA419C1974600A7CCFA /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		1D094FA519C1974600A7CCFA /* 23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.jpg; sourceTree = "<group>"; };
+		1D094FA619C1974600A7CCFA /* 24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24.jpg; sourceTree = "<group>"; };
+		1D094FA719C1974600A7CCFA /* 25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 25.jpg; sourceTree = "<group>"; };
+		1D094FA819C1974600A7CCFA /* 26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 26.jpg; sourceTree = "<group>"; };
+		1D094FA919C1974600A7CCFA /* 27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 27.jpg; sourceTree = "<group>"; };
+		1D094FAA19C1974600A7CCFA /* 28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28.jpg; sourceTree = "<group>"; };
+		1D094FAB19C1974600A7CCFA /* 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29.jpg; sourceTree = "<group>"; };
+		1D094FAC19C1974600A7CCFA /* 30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 30.jpg; sourceTree = "<group>"; };
+		1D094FAD19C1974600A7CCFA /* 31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 31.jpg; sourceTree = "<group>"; };
+		1D094FAE19C1974600A7CCFA /* 32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 32.jpg; sourceTree = "<group>"; };
+		1D094FAF19C1974600A7CCFA /* 33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 33.jpg; sourceTree = "<group>"; };
+		1D094FB019C1974600A7CCFA /* 34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 34.jpg; sourceTree = "<group>"; };
+		1D094FB119C1974600A7CCFA /* 35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 35.jpg; sourceTree = "<group>"; };
+		1D094FB219C1974600A7CCFA /* 36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 36.jpg; sourceTree = "<group>"; };
+		1D094FB319C1974600A7CCFA /* 37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 37.jpg; sourceTree = "<group>"; };
+		1D094FB419C1974600A7CCFA /* 38.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 38.jpg; sourceTree = "<group>"; };
+		1D094FB519C1974600A7CCFA /* 39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 39.jpg; sourceTree = "<group>"; };
+		1D094FB619C1974600A7CCFA /* 40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 40.jpg; sourceTree = "<group>"; };
+		1D094FDF19C19FB100A7CCFA /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
+		1D094FE019C19FB100A7CCFA /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
+		1D094FE219C1A07700A7CCFA /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		1D094FE319C1A07700A7CCFA /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		1D2C8FAB19BE9CE600C19399 /* NLImageCropperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLImageCropperView.h; sourceTree = "<group>"; };
+		1D2C8FAC19BE9CE600C19399 /* NLImageCropperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLImageCropperView.m; sourceTree = "<group>"; };
+		1D2C8FAD19BE9CE600C19399 /* NLCropViewLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCropViewLayer.h; sourceTree = "<group>"; };
+		1D2C8FAE19BE9CE600C19399 /* NLCropViewLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCropViewLayer.m; sourceTree = "<group>"; };
+		1DAC6EC619BFF1CD00758D20 /* NLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLViewController.h; sourceTree = "<group>"; };
+		1DAC6EC719BFF1CD00758D20 /* NLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLViewController.m; sourceTree = "<group>"; };
+		1DAC6EC919C0057F00758D20 /* corner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corner.png; sourceTree = "<group>"; };
+		1DAC6ECB19C0065D00758D20 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuartzCore.framework; sourceTree = "<group>"; };
+		1DAC6ECD19C0107000758D20 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1DAC6ECE19C0107000758D20 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1DAC6ECF19C0107000758D20 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1DAC6ED519C02A5600758D20 /* PhotoBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoBtn.h; sourceTree = "<group>"; };
+		1DAC6ED619C02A5600758D20 /* PhotoBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoBtn.m; sourceTree = "<group>"; };
+		1DAC6ED819C034BA00758D20 /* SetUppage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUppage.h; sourceTree = "<group>"; };
+		1DAC6ED919C034BA00758D20 /* SetUppage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUppage.m; sourceTree = "<group>"; };
+		1DAC6EDB19C034CE00758D20 /* 耍贱头像_设置.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "耍贱头像_设置.jpg"; sourceTree = "<group>"; };
+		1DAC6EDF19C03F3F00758D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
+		1DAC6EE119C03F3F00758D20 /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
+		1DAC6EE219C03F3F00758D20 /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
+		1DAC6EE319C03F3F00758D20 /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
+		1DAC6EE419C03F3F00758D20 /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
+		1DAC6EE519C03F3F00758D20 /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
+		1DAC6EE619C03F3F00758D20 /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		1DAC6EE719C03F3F00758D20 /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
+		1DAC6EE819C03F3F00758D20 /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
+		1DAC6EE919C03F3F00758D20 /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
+		1DAC6EEA19C03F3F00758D20 /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		1DAC6EEB19C03F3F00758D20 /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
+		1DAC6EEC19C03F3F00758D20 /* libUMSocial_Sdk_4.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_4.1.a; sourceTree = "<group>"; };
+		1DAC6EED19C03F3F00758D20 /* libUMSocial_Sdk_Comment_4.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_Comment_4.1.a; sourceTree = "<group>"; };
+		1DAC6EEF19C03F3F00758D20 /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentDetailController.xib; sourceTree = "<group>"; };
+		1DAC6EF019C03F3F00758D20 /* UMSCommentInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputController.xib; sourceTree = "<group>"; };
+		1DAC6EF119C03F3F00758D20 /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
+		1DAC6EF219C03F3F00758D20 /* UMShareEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewController.xib; sourceTree = "<group>"; };
+		1DAC6EF319C03F3F00758D20 /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
+		1DAC6EF419C03F3F00758D20 /* UMSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSLoginViewController.xib; sourceTree = "<group>"; };
+		1DAC6EF519C03F3F00758D20 /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSnsAccountViewController.xib; sourceTree = "<group>"; };
+		1DAC6EF619C03F3F00758D20 /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
+		1DAC6EF819C03F3F00758D20 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		1DAC6EF919C03F3F00758D20 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		1DAC6EFA19C03F3F00758D20 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		1DAC6EFB19C03F3F00758D20 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		1DAC6EFC19C03F3F00758D20 /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		1DAC6EFE19C03F3F00758D20 /* libSocialWechat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWechat.a; sourceTree = "<group>"; };
+		1DAC6EFF19C03F3F00758D20 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		1DAC6F0019C03F3F00758D20 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		1DAC6F0119C03F3F00758D20 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		1DAC6F0219C03F3F00758D20 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		1DAC6F0319C03F3F00758D20 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
+		1DAC6F1519C03F8100758D20 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		1DAC6F1719C03F8A00758D20 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1DAC6F1919C03F9600758D20 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1DAC6F1B19C03FA300758D20 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1DAC6F1D19C03FAD00758D20 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1DAC6F1F19C03FB900758D20 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		1DAC6F2119C03FC600758D20 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1DAC6F2319C03FD000758D20 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1DAC6F2519C03FEF00758D20 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		1DAC6F2719C03FFC00758D20 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1DAC6F2919C0400700758D20 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		1DAC6F2B19C0401000758D20 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		1DAC6F2D19C0401E00758D20 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1DAC6F2F19C0402900758D20 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1DACB63819B9A5C000A86D0F /* Photos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photos.h; sourceTree = "<group>"; };
+		1DACB63919B9A5C000A86D0F /* Photos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photos.m; sourceTree = "<group>"; };
+		1DADEB1C19C20FD10063C62E /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
+		1DADEB1D19C20FD10063C62E /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		1DB185E719B75DB500347F3D /* Draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Draw.h; sourceTree = "<group>"; };
+		1DB185E819B75DB500347F3D /* Draw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Draw.m; sourceTree = "<group>"; };
+		1DBEFEE419C6C22000D3B14C /* 耍贱头像_小丸子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耍贱头像_小丸子.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +314,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DAC6F3019C0402900758D20 /* SystemConfiguration.framework in Frameworks */,
+				1DAC6F2E19C0401E00758D20 /* CoreTelephony.framework in Frameworks */,
+				1DADEB1E19C20FD10063C62E /* libSocialSina.a in Frameworks */,
+				1DAC6F2C19C0401000758D20 /* libicucore.dylib in Frameworks */,
+				1DAC6F2A19C0400700758D20 /* libz.1.2.5.dylib in Frameworks */,
+				1DAC6F2819C03FFC00758D20 /* Security.framework in Frameworks */,
+				1DAC6F2619C03FEF00758D20 /* libstdc++.dylib in Frameworks */,
+				1DAC6F2419C03FD000758D20 /* libsqlite3.dylib in Frameworks */,
+				1DAC6F2219C03FC600758D20 /* MessageUI.framework in Frameworks */,
+				1DAC6F2019C03FB900758D20 /* AssetsLibrary.framework in Frameworks */,
+				1DAC6F1E19C03FAD00758D20 /* CoreText.framework in Frameworks */,
+				1DAC6F1C19C03FA300758D20 /* MediaPlayer.framework in Frameworks */,
+				1DAC6F1A19C03F9600758D20 /* CoreLocation.framework in Frameworks */,
+				1DAC6F1819C03F8A00758D20 /* CoreMotion.framework in Frameworks */,
+				1DAC6F1619C03F8100758D20 /* AddressBook.framework in Frameworks */,
+				1DAC6ECC19C0065D00758D20 /* QuartzCore.framework in Frameworks */,
+				1DAC6F1019C03F3F00758D20 /* TencentOpenAPI.framework in Frameworks */,
+				1DAC6F0619C03F3F00758D20 /* libUMSocial_Sdk_Comment_4.1.a in Frameworks */,
 				1D06243A19B56C5D0015411C /* CoreGraphics.framework in Frameworks */,
+				1DAC6F1419C03F3F00758D20 /* libWeChatSDK.a in Frameworks */,
 				1D06243C19B56C5D0015411C /* UIKit.framework in Frameworks */,
+				1DAC6F0519C03F3F00758D20 /* libUMSocial_Sdk_4.1.a in Frameworks */,
+				1DAC6F0F19C03F3F00758D20 /* libSocialQQ.a in Frameworks */,
+				1DAC6F1319C03F3F00758D20 /* libSocialWechat.a in Frameworks */,
 				1D06243819B56C5D0015411C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +358,10 @@
 		1D06242B19B56C5D0015411C = {
 			isa = PBXGroup;
 			children = (
+				1D094F8E19C1974600A7CCFA /* 素材 */,
+				1D094F7D19C1770B00A7CCFA /* NewImage */,
+				1DAC6EDD19C03F3F00758D20 /* UMSocial_Sdk_4.1 */,
+				1D06246D19B57D3C0015411C /* UIImage */,
 				1D06243D19B56C5D0015411C /* ShuaJian */,
 				1D06245619B56C5D0015411C /* ShuaJianTests */,
 				1D06243619B56C5D0015411C /* Frameworks */,
@@ -96,6 +381,21 @@
 		1D06243619B56C5D0015411C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1DAC6F2F19C0402900758D20 /* SystemConfiguration.framework */,
+				1DAC6F2D19C0401E00758D20 /* CoreTelephony.framework */,
+				1DAC6F2B19C0401000758D20 /* libicucore.dylib */,
+				1DAC6F2919C0400700758D20 /* libz.1.2.5.dylib */,
+				1DAC6F2719C03FFC00758D20 /* Security.framework */,
+				1DAC6F2519C03FEF00758D20 /* libstdc++.dylib */,
+				1DAC6F2319C03FD000758D20 /* libsqlite3.dylib */,
+				1DAC6F2119C03FC600758D20 /* MessageUI.framework */,
+				1DAC6F1F19C03FB900758D20 /* AssetsLibrary.framework */,
+				1DAC6F1D19C03FAD00758D20 /* CoreText.framework */,
+				1DAC6F1B19C03FA300758D20 /* MediaPlayer.framework */,
+				1DAC6F1919C03F9600758D20 /* CoreLocation.framework */,
+				1DAC6F1719C03F8A00758D20 /* CoreMotion.framework */,
+				1DAC6F1519C03F8100758D20 /* AddressBook.framework */,
+				1DAC6ECB19C0065D00758D20 /* QuartzCore.framework */,
 				1D06243719B56C5D0015411C /* Foundation.framework */,
 				1D06243919B56C5D0015411C /* CoreGraphics.framework */,
 				1D06243B19B56C5D0015411C /* UIKit.framework */,
@@ -109,8 +409,31 @@
 			children = (
 				1D06244619B56C5D0015411C /* AppDelegate.h */,
 				1D06244719B56C5D0015411C /* AppDelegate.m */,
+				1D06246719B56EB00015411C /* Setup.h */,
+				1D06246819B56EB00015411C /* Setup.m */,
+				1D06246A19B56F270015411C /* MainPage.h */,
+				1D06246B19B56F270015411C /* MainPage.m */,
+				1D094FDF19C19FB100A7CCFA /* Picture.h */,
+				1D094FE019C19FB100A7CCFA /* Picture.m */,
+				1D094FE219C1A07700A7CCFA /* PhotoCell.h */,
+				1D094FE319C1A07700A7CCFA /* PhotoCell.m */,
+				1DAC6ED819C034BA00758D20 /* SetUppage.h */,
+				1DAC6ED919C034BA00758D20 /* SetUppage.m */,
+				1DAC6ED519C02A5600758D20 /* PhotoBtn.h */,
+				1DAC6ED619C02A5600758D20 /* PhotoBtn.m */,
+				1DACB63819B9A5C000A86D0F /* Photos.h */,
+				1DACB63919B9A5C000A86D0F /* Photos.m */,
+				1DAC6EC619BFF1CD00758D20 /* NLViewController.h */,
+				1DAC6EC719BFF1CD00758D20 /* NLViewController.m */,
+				1D2C8FAB19BE9CE600C19399 /* NLImageCropperView.h */,
+				1D2C8FAC19BE9CE600C19399 /* NLImageCropperView.m */,
+				1D2C8FAD19BE9CE600C19399 /* NLCropViewLayer.h */,
+				1D2C8FAE19BE9CE600C19399 /* NLCropViewLayer.m */,
+				1DB185E719B75DB500347F3D /* Draw.h */,
+				1DB185E819B75DB500347F3D /* Draw.m */,
 				1D06244919B56C5D0015411C /* Images.xcassets */,
 				1D06243E19B56C5D0015411C /* Supporting Files */,
+				1D06246619B56D090015411C /* TypeClass.h */,
 			);
 			path = ShuaJian;
 			sourceTree = "<group>";
@@ -142,6 +465,179 @@
 				1D06245919B56C5D0015411C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D06246D19B57D3C0015411C /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				1DAC6EDB19C034CE00758D20 /* 耍贱头像_设置.jpg */,
+				1D094F8C19C180FE00A7CCFA /* 耍贱头像_99.png */,
+				1DBEFEE419C6C22000D3B14C /* 耍贱头像_小丸子.png */,
+				1DAC6EC919C0057F00758D20 /* corner.png */,
+				1D06246E19B57D500015411C /* 耍贱头像_保存头像按钮.png */,
+				1D06246F19B57D500015411C /* 耍贱头像_符号1.png */,
+				1D06247019B57D500015411C /* 耍贱头像_符号2.png */,
+				1D06247119B57D500015411C /* 耍贱头像_符号3.png */,
+				1D06247219B57D500015411C /* 耍贱头像_符号4.png */,
+				1D06247319B57D500015411C /* 耍贱头像_符号5.png */,
+				1D06247419B57D500015411C /* 耍贱头像_设置按钮.png */,
+				1D06247519B57D500015411C /* 耍贱头像_选择头像按钮.png */,
+				1D06247619B57D500015411C /* 耍贱头像图标.png */,
+				1D06248019B590970015411C /* 符号1.png */,
+				1D06248119B590970015411C /* 符号2.png */,
+				1D06248219B590970015411C /* 符号3.png */,
+				1D06248319B590970015411C /* 符号4.png */,
+				1D06248419B590970015411C /* 符号5.png */,
+				1D06248519B590970015411C /* 耍贱头像_底板.png */,
+				1D06248619B590970015411C /* 耍贱头像_输入框.png */,
+				1D06248719B590970015411C /* 耍贱头像_头像背景框.png */,
+				1DAC6ECD19C0107000758D20 /* Default.png */,
+				1DAC6ECE19C0107000758D20 /* Default@2x.png */,
+				1DAC6ECF19C0107000758D20 /* Default-568h@2x.png */,
+			);
+			name = UIImage;
+			sourceTree = "<group>";
+		};
+		1D094F7D19C1770B00A7CCFA /* NewImage */ = {
+			isa = PBXGroup;
+			children = (
+				1D094F7E19C1772900A7CCFA /* 耍贱头像首页.png */,
+				1D094F7F19C1772900A7CCFA /* 耍贱头像设置-新浪_12.png */,
+				1D094F8019C1772900A7CCFA /* 耍贱头像设置栏-1.png */,
+				1D094F8119C1772900A7CCFA /* 耍贱头像设置标题栏_03.png */,
+				1D094F8219C1772900A7CCFA /* 耍贱头像设置按钮_03.png */,
+				1D094F8319C1772900A7CCFA /* 耍贱头像设置-qq_06.png */,
+				1D094F8419C1772900A7CCFA /* 耍贱头像设置栏-2.png */,
+			);
+			name = NewImage;
+			sourceTree = "<group>";
+		};
+		1D094F8E19C1974600A7CCFA /* 素材 */ = {
+			isa = PBXGroup;
+			children = (
+				1D094F8F19C1974600A7CCFA /* 1.jpg */,
+				1D094F9019C1974600A7CCFA /* 2.jpg */,
+				1D094F9119C1974600A7CCFA /* 3.jpg */,
+				1D094F9219C1974600A7CCFA /* 4.jpg */,
+				1D094F9319C1974600A7CCFA /* 5.jpg */,
+				1D094F9419C1974600A7CCFA /* 6.jpg */,
+				1D094F9519C1974600A7CCFA /* 7.jpg */,
+				1D094F9619C1974600A7CCFA /* 8.jpg */,
+				1D094F9719C1974600A7CCFA /* 9.jpg */,
+				1D094F9819C1974600A7CCFA /* 10.jpg */,
+				1D094F9919C1974600A7CCFA /* 11.jpg */,
+				1D094F9A19C1974600A7CCFA /* 12.jpg */,
+				1D094F9B19C1974600A7CCFA /* 13.jpg */,
+				1D094F9C19C1974600A7CCFA /* 14.jpg */,
+				1D094F9D19C1974600A7CCFA /* 15.jpg */,
+				1D094F9E19C1974600A7CCFA /* 16.jpg */,
+				1D094F9F19C1974600A7CCFA /* 17.jpg */,
+				1D094FA019C1974600A7CCFA /* 18.jpg */,
+				1D094FA119C1974600A7CCFA /* 19.jpg */,
+				1D094FA219C1974600A7CCFA /* 20.jpg */,
+				1D094FA319C1974600A7CCFA /* 21.jpg */,
+				1D094FA419C1974600A7CCFA /* 22.jpg */,
+				1D094FA519C1974600A7CCFA /* 23.jpg */,
+				1D094FA619C1974600A7CCFA /* 24.jpg */,
+				1D094FA719C1974600A7CCFA /* 25.jpg */,
+				1D094FA819C1974600A7CCFA /* 26.jpg */,
+				1D094FA919C1974600A7CCFA /* 27.jpg */,
+				1D094FAA19C1974600A7CCFA /* 28.jpg */,
+				1D094FAB19C1974600A7CCFA /* 29.jpg */,
+				1D094FAC19C1974600A7CCFA /* 30.jpg */,
+				1D094FAD19C1974600A7CCFA /* 31.jpg */,
+				1D094FAE19C1974600A7CCFA /* 32.jpg */,
+				1D094FAF19C1974600A7CCFA /* 33.jpg */,
+				1D094FB019C1974600A7CCFA /* 34.jpg */,
+				1D094FB119C1974600A7CCFA /* 35.jpg */,
+				1D094FB219C1974600A7CCFA /* 36.jpg */,
+				1D094FB319C1974600A7CCFA /* 37.jpg */,
+				1D094FB419C1974600A7CCFA /* 38.jpg */,
+				1D094FB519C1974600A7CCFA /* 39.jpg */,
+				1D094FB619C1974600A7CCFA /* 40.jpg */,
+			);
+			path = "素材";
+			sourceTree = "<group>";
+		};
+		1DAC6EDD19C03F3F00758D20 /* UMSocial_Sdk_4.1 */ = {
+			isa = PBXGroup;
+			children = (
+				1DADEB1B19C20FD10063C62E /* Sina */,
+				1DAC6EDE19C03F3F00758D20 /* UMSocialLocalizable.strings */,
+				1DAC6EE019C03F3F00758D20 /* Header */,
+				1DAC6EEC19C03F3F00758D20 /* libUMSocial_Sdk_4.1.a */,
+				1DAC6EED19C03F3F00758D20 /* libUMSocial_Sdk_Comment_4.1.a */,
+				1DAC6EEE19C03F3F00758D20 /* SocialSDKXib */,
+				1DAC6EF719C03F3F00758D20 /* TencentOpenAPI */,
+				1DAC6EFC19C03F3F00758D20 /* UMSocialSDKResourcesNew.bundle */,
+				1DAC6EFD19C03F3F00758D20 /* Wechat */,
+			);
+			path = UMSocial_Sdk_4.1;
+			sourceTree = "<group>";
+		};
+		1DAC6EE019C03F3F00758D20 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				1DAC6EE119C03F3F00758D20 /* UMSocial.h */,
+				1DAC6EE219C03F3F00758D20 /* UMSocialAccountManager.h */,
+				1DAC6EE319C03F3F00758D20 /* UMSocialBar.h */,
+				1DAC6EE419C03F3F00758D20 /* UMSocialConfig.h */,
+				1DAC6EE519C03F3F00758D20 /* UMSocialControllerService.h */,
+				1DAC6EE619C03F3F00758D20 /* UMSocialControllerServiceComment.h */,
+				1DAC6EE719C03F3F00758D20 /* UMSocialData.h */,
+				1DAC6EE819C03F3F00758D20 /* UMSocialDataService.h */,
+				1DAC6EE919C03F3F00758D20 /* UMSocialSnsData.h */,
+				1DAC6EEA19C03F3F00758D20 /* UMSocialSnsPlatformManager.h */,
+				1DAC6EEB19C03F3F00758D20 /* UMSocialSnsService.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		1DAC6EEE19C03F3F00758D20 /* SocialSDKXib */ = {
+			isa = PBXGroup;
+			children = (
+				1DAC6EEF19C03F3F00758D20 /* UMSCommentDetailController.xib */,
+				1DAC6EF019C03F3F00758D20 /* UMSCommentInputController.xib */,
+				1DAC6EF119C03F3F00758D20 /* UMSCommentInputControlleriPad.xib */,
+				1DAC6EF219C03F3F00758D20 /* UMShareEditViewController.xib */,
+				1DAC6EF319C03F3F00758D20 /* UMShareEditViewControlleriPad.xib */,
+				1DAC6EF419C03F3F00758D20 /* UMSLoginViewController.xib */,
+				1DAC6EF519C03F3F00758D20 /* UMSnsAccountViewController.xib */,
+				1DAC6EF619C03F3F00758D20 /* UMSShareListController.xib */,
+			);
+			path = SocialSDKXib;
+			sourceTree = "<group>";
+		};
+		1DAC6EF719C03F3F00758D20 /* TencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1DAC6EF819C03F3F00758D20 /* libSocialQQ.a */,
+				1DAC6EF919C03F3F00758D20 /* TencentOpenAPI.framework */,
+				1DAC6EFA19C03F3F00758D20 /* TencentOpenApi_IOS_Bundle.bundle */,
+				1DAC6EFB19C03F3F00758D20 /* UMSocialQQHandler.h */,
+			);
+			path = TencentOpenAPI;
+			sourceTree = "<group>";
+		};
+		1DAC6EFD19C03F3F00758D20 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				1DAC6EFE19C03F3F00758D20 /* libSocialWechat.a */,
+				1DAC6EFF19C03F3F00758D20 /* libWeChatSDK.a */,
+				1DAC6F0019C03F3F00758D20 /* UMSocialWechatHandler.h */,
+				1DAC6F0119C03F3F00758D20 /* WXApi.h */,
+				1DAC6F0219C03F3F00758D20 /* WXApiObject.h */,
+			);
+			path = Wechat;
+			sourceTree = "<group>";
+		};
+		1DADEB1B19C20FD10063C62E /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				1DADEB1C19C20FD10063C62E /* libSocialSina.a */,
+				1DADEB1D19C20FD10063C62E /* UMSocialSinaHandler.h */,
+			);
+			path = Sina;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +698,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = 1D06242B19B56C5D0015411C;
 			productRefGroup = 1D06243519B56C5D0015411C /* Products */;
@@ -219,8 +716,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D094FC719C1974600A7CCFA /* 17.jpg in Resources */,
+				1DBEFEE519C6C22000D3B14C /* 耍贱头像_小丸子.png in Resources */,
+				1D06248A19B590970015411C /* 符号3.png in Resources */,
+				1D06248819B590970015411C /* 符号1.png in Resources */,
+				1D094FD719C1974600A7CCFA /* 33.jpg in Resources */,
+				1D06247F19B57D500015411C /* 耍贱头像图标.png in Resources */,
+				1D094FD519C1974600A7CCFA /* 31.jpg in Resources */,
+				1D094F8519C1772900A7CCFA /* 耍贱头像首页.png in Resources */,
+				1D094FC919C1974600A7CCFA /* 19.jpg in Resources */,
+				1D06248E19B590970015411C /* 耍贱头像_输入框.png in Resources */,
+				1DAC6ED019C0107000758D20 /* Default.png in Resources */,
+				1DAC6F0B19C03F3F00758D20 /* UMShareEditViewControlleriPad.xib in Resources */,
+				1D094FC519C1974600A7CCFA /* 15.jpg in Resources */,
 				1D06244219B56C5D0015411C /* InfoPlist.strings in Resources */,
+				1D094FC219C1974600A7CCFA /* 12.jpg in Resources */,
+				1D094FCF19C1974600A7CCFA /* 25.jpg in Resources */,
+				1D094FCD19C1974600A7CCFA /* 23.jpg in Resources */,
+				1D094FBC19C1974600A7CCFA /* 6.jpg in Resources */,
+				1D06247C19B57D500015411C /* 耍贱头像_符号5.png in Resources */,
+				1D094FC319C1974600A7CCFA /* 13.jpg in Resources */,
+				1D094FCA19C1974600A7CCFA /* 20.jpg in Resources */,
+				1D094FDE19C1974600A7CCFA /* 40.jpg in Resources */,
+				1D094FD819C1974600A7CCFA /* 34.jpg in Resources */,
+				1D094FDA19C1974600A7CCFA /* 36.jpg in Resources */,
+				1D094FDC19C1974600A7CCFA /* 38.jpg in Resources */,
+				1D06247E19B57D500015411C /* 耍贱头像_选择头像按钮.png in Resources */,
+				1D06247819B57D500015411C /* 耍贱头像_符号1.png in Resources */,
+				1DAC6F0D19C03F3F00758D20 /* UMSnsAccountViewController.xib in Resources */,
+				1D094F8719C1772900A7CCFA /* 耍贱头像设置栏-1.png in Resources */,
+				1DAC6F0719C03F3F00758D20 /* UMSCommentDetailController.xib in Resources */,
+				1D094FBB19C1974600A7CCFA /* 5.jpg in Resources */,
+				1DAC6EDC19C034CE00758D20 /* 耍贱头像_设置.jpg in Resources */,
+				1D094FB919C1974600A7CCFA /* 3.jpg in Resources */,
+				1D094FB819C1974600A7CCFA /* 2.jpg in Resources */,
+				1D094FC119C1974600A7CCFA /* 11.jpg in Resources */,
+				1D06247B19B57D500015411C /* 耍贱头像_符号4.png in Resources */,
+				1D094F8D19C180FE00A7CCFA /* 耍贱头像_99.png in Resources */,
+				1D06247719B57D500015411C /* 耍贱头像_保存头像按钮.png in Resources */,
+				1D094FD419C1974600A7CCFA /* 30.jpg in Resources */,
+				1DAC6F0919C03F3F00758D20 /* UMSCommentInputControlleriPad.xib in Resources */,
+				1DAC6F0A19C03F3F00758D20 /* UMShareEditViewController.xib in Resources */,
+				1D094FD619C1974600A7CCFA /* 32.jpg in Resources */,
+				1D06247D19B57D500015411C /* 耍贱头像_设置按钮.png in Resources */,
+				1D094FD119C1974600A7CCFA /* 27.jpg in Resources */,
+				1DAC6F1119C03F3F00758D20 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				1DAC6F0819C03F3F00758D20 /* UMSCommentInputController.xib in Resources */,
+				1D094F8619C1772900A7CCFA /* 耍贱头像设置-新浪_12.png in Resources */,
+				1D06247919B57D500015411C /* 耍贱头像_符号2.png in Resources */,
+				1D06248F19B590970015411C /* 耍贱头像_头像背景框.png in Resources */,
+				1D094FC619C1974600A7CCFA /* 16.jpg in Resources */,
+				1D06248D19B590970015411C /* 耍贱头像_底板.png in Resources */,
+				1DAC6ECA19C0057F00758D20 /* corner.png in Resources */,
+				1DAC6ED119C0107000758D20 /* Default@2x.png in Resources */,
+				1DAC6ED219C0107000758D20 /* Default-568h@2x.png in Resources */,
+				1D094FCE19C1974600A7CCFA /* 24.jpg in Resources */,
+				1D094FBD19C1974600A7CCFA /* 7.jpg in Resources */,
+				1DAC6F0E19C03F3F00758D20 /* UMSShareListController.xib in Resources */,
+				1D094FC019C1974600A7CCFA /* 10.jpg in Resources */,
+				1D094FDB19C1974600A7CCFA /* 37.jpg in Resources */,
+				1D094FDD19C1974600A7CCFA /* 39.jpg in Resources */,
+				1D094FCB19C1974600A7CCFA /* 21.jpg in Resources */,
+				1D094FC419C1974600A7CCFA /* 14.jpg in Resources */,
+				1DAC6F0C19C03F3F00758D20 /* UMSLoginViewController.xib in Resources */,
+				1D094FD219C1974600A7CCFA /* 28.jpg in Resources */,
 				1D06244A19B56C5D0015411C /* Images.xcassets in Resources */,
+				1D094FBE19C1974600A7CCFA /* 8.jpg in Resources */,
+				1D094F8A19C1772900A7CCFA /* 耍贱头像设置-qq_06.png in Resources */,
+				1D094FD919C1974600A7CCFA /* 35.jpg in Resources */,
+				1D094FBF19C1974600A7CCFA /* 9.jpg in Resources */,
+				1D094F8819C1772900A7CCFA /* 耍贱头像设置标题栏_03.png in Resources */,
+				1D094FD019C1974600A7CCFA /* 26.jpg in Resources */,
+				1D094FC819C1974600A7CCFA /* 18.jpg in Resources */,
+				1D094FCC19C1974600A7CCFA /* 22.jpg in Resources */,
+				1DAC6F1219C03F3F00758D20 /* UMSocialSDKResourcesNew.bundle in Resources */,
+				1D06248C19B590970015411C /* 符号5.png in Resources */,
+				1DAC6F0419C03F3F00758D20 /* UMSocialLocalizable.strings in Resources */,
+				1D094F8919C1772900A7CCFA /* 耍贱头像设置按钮_03.png in Resources */,
+				1D06248B19B590970015411C /* 符号4.png in Resources */,
+				1D094FB719C1974600A7CCFA /* 1.jpg in Resources */,
+				1D06247A19B57D500015411C /* 耍贱头像_符号3.png in Resources */,
+				1D06248919B590970015411C /* 符号2.png in Resources */,
+				1D094FD319C1974600A7CCFA /* 29.jpg in Resources */,
+				1D094FBA19C1974600A7CCFA /* 4.jpg in Resources */,
+				1D094F8B19C1772900A7CCFA /* 耍贱头像设置栏-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +818,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D094FE119C19FB100A7CCFA /* Picture.m in Sources */,
+				1DAC6EC819BFF1CD00758D20 /* NLViewController.m in Sources */,
+				1DB185E919B75DB500347F3D /* Draw.m in Sources */,
+				1D06246919B56EB00015411C /* Setup.m in Sources */,
+				1D2C8FB019BE9CE600C19399 /* NLCropViewLayer.m in Sources */,
+				1D2C8FAF19BE9CE600C19399 /* NLImageCropperView.m in Sources */,
 				1D06244819B56C5D0015411C /* AppDelegate.m in Sources */,
 				1D06244419B56C5D0015411C /* main.m in Sources */,
+				1DACB63A19B9A5C000A86D0F /* Photos.m in Sources */,
+				1D06246C19B56F270015411C /* MainPage.m in Sources */,
+				1D094FE419C1A07700A7CCFA /* PhotoCell.m in Sources */,
+				1DAC6ED719C02A5600758D20 /* PhotoBtn.m in Sources */,
+				1DAC6EDA19C034BA00758D20 /* SetUppage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +867,15 @@
 				1D06245A19B56C5D0015411C /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DAC6EDE19C03F3F00758D20 /* UMSocialLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DAC6EDF19C03F3F00758D20 /* en */,
+				1DAC6F0319C03F3F00758D20 /* zh-Hans */,
+			);
+			name = UMSocialLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -357,9 +956,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.1/TencentOpenAPI",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShuaJian/ShuaJian-Prefix.pch";
 				INFOPLIST_FILE = "ShuaJian/ShuaJian-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.1",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.1/TencentOpenAPI",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.1/Wechat",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.1/Sina",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -370,9 +981,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.1/TencentOpenAPI",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShuaJian/ShuaJian-Prefix.pch";
 				INFOPLIST_FILE = "ShuaJian/ShuaJian-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.1",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.1/TencentOpenAPI",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.1/Wechat",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.1/Sina",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +1060,7 @@
 				1D06246219B56C5D0015411C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D06246319B56C5D0015411C /* Build configuration list for PBXNativeTarget "ShuaJianTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +1069,7 @@
 				1D06246519B56C5D0015411C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
